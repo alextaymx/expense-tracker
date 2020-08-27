@@ -21,7 +21,7 @@ export const GlobalProvider = ({ children }) => {
   //actions
   const deleteTransaction = (id) => {
     dispatch({
-      type: "DELETE_TRANSATION",
+      type: "DELETE_TRANSACTION",
       payload: id,
     });
   };
